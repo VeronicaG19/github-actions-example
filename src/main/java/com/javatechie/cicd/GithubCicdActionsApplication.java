@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GithubCicdActionsApplication {
 
-	@GetMapping("/welcome2")
+	@GetMapping("/welcome1")
 	public String welcome(){
-		return "Welcome to javatechie !";
+		return "Welcome to CI/CD !";
 	}
 
 //	echo "# github-actions-example" >> README.md
